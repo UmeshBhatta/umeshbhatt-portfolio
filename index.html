@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Umesh Bhatt | Web Developer</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+/* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+
+/* Body */
+body { scroll-behavior: smooth; }
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: 500; }
+
+/* Hero Section */
+#hero {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+#hero h1 { font-size: 60px; margin-bottom: 20px; }
+#hero p { font-size: 24px; margin-bottom: 30px; }
+#hero a { background: #0d6efd; padding: 15px 30px; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
+
+/* Section Style */
+section { padding: 100px 50px; max-width: 1000px; margin: auto; }
+section h2 { font-size: 36px; margin-bottom: 20px; color: #0d6efd; }
+section p { font-size: 18px; line-height: 1.6; margin-bottom: 20px; }
+
+/* Portfolio */
+.portfolio-item { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+
+/* Footer */
+footer { background: #111; color: white; text-align: center; padding: 20px; }
+
+/* Responsive */
+@media(max-width: 768px) {
+  #hero h1 { font-size: 40px; }
+  #hero p { font-size: 18px; }
+  nav { flex-direction: column; align-items: center; }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div>Umesh Bhatt</div>
+  <div>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+  <h1>Umesh Bhatt</h1>
+  <p>Social media Platform Manager, Professional Web Developer & Freelancer</p>
+  <a href="#contact">Get in Touch</a>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I am Umesh Bhatt, a passionate Web Developer. I build modern, fast, and secure websites that help businesses grow online. I specialize in responsive design, clean layouts, and professional web solutions.</p>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio-item">Project 1: Description or link</div>
+  <div class="portfolio-item">Project 2: Description or link</div>
+  <div class="portfolio-item">Project 3: Description or link</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:upenofficial01@gmail.com">your@email.com</a></p>
+  <p>Follow me on: 
+    <a href="https://facebook.com/umeshbhatta977" target="_blank">Facebook</a> | 
+    <a href="https://www.youtube.com/@Umyesdiaries" target="_blank">Youtube</a> | 
+    <a href="https://x.com/@Umesh_Bhatta977" target="_blank">X</a>
+  </p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Umesh Bhatt. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
